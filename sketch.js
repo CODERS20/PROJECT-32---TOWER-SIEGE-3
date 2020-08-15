@@ -55,6 +55,7 @@ function setup() {
 
   ball = new Ball(55,170,30,30);
   slingshot = new SlingShot(ball.body,{x:100, y:70});
+  getTime();
 
   Engine.run(engine);
 
