@@ -71,7 +71,7 @@ function draw() {
   
   textFont("Times New Roman")
   textSize(30);
-  fill("#2070EF")
+  fill("#F29256")
   text("SCORE : "+score,600,40);
   //fill("#F0BFBD");
   block1.display();
